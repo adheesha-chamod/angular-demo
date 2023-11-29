@@ -1,0 +1,71 @@
+##### Setup #####
+
+# In powershell (shift + right click)
+npm install -g @angular/cli
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+# If angular already installed once, no need to execute above cmds
+ng new <app name>
+
+# Run the app
+ng serve
+ng serve --open
+
+
+
+##### Install another version(15.0.0) #####
+
+# In powershell (shift + right click)
+npm uninstall -g @angular/cli
+npm install -g @angular/cli@15.0.0
+ng version
+ng new <app name>
+
+
+
+##### Others #####
+
+ng generate component <folder/component_name>
+ng generate service <folder/component_name>
+
+
+
+
+##### Git / GitHub #####
+
+git remote add origin https://github.com/adheesha-chamod/angular-task-tracker.git
+git remote -v
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
