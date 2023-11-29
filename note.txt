@@ -25,15 +25,15 @@ ng new <app name>
 
 ##### Others #####
 
-ng generate component <folder/component_name>
-ng generate service <folder/component_name>
-
+ng generate component <folder>/component>
+ng generate service <folder>/component>
+ng generate interface <interface>
 
 
 
 ##### Git / GitHub #####
 
-git remote add origin https://github.com/adheesha-chamod/angular-task-tracker.git
+git remote add origin <link>
 git remote -v
 git branch -M main
 git push -u origin main
