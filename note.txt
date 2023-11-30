@@ -27,7 +27,7 @@ ng new <app name>
 
 ng generate component <folder>/component>
 ng generate service <folder>/component>
-ng generate interface <interface>
+ng generate interface <folder>/<interface>
 
 
 
