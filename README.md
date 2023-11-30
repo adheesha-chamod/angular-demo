@@ -10,22 +10,22 @@ Used tools and technologies:
 
 Open the terminal from the project location and, run the below commands.
 
-### 1. Install all the dependencies
+#### 1. Install all the dependencies
 ```
 npm install --legacy-peer-deps
 ```
 
-### 2. Start json-server
+#### 2. Start json-server
 ```
 npm install --legacy-peer-deps
 ```
 
-### 3. Install all the dependencies
+#### 3. Install all the dependencies
 ```
 npx json-server --watch db.json
 ```
 
-### 4. Start the Angular application:
+#### 4. Start the Angular application:
 ```
 ng serve
 ```
