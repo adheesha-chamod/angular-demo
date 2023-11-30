@@ -15,17 +15,13 @@ Open the terminal from the project location and, run the below commands.
 npm install --legacy-peer-deps
 ```
 
-#### 2. Start json-server
-```
-npm install --legacy-peer-deps
-```
-
-#### 3. Install all the dependencies
+#### 2. Start the json-server
+Do this in another terminal that opened from the project location.
 ```
 npx json-server --watch db.json
 ```
 
-#### 4. Start the Angular application:
+#### 3. Start the Angular application
 ```
 ng serve
 ```
