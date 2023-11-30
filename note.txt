@@ -29,6 +29,8 @@ ng generate component <folder>/component>
 ng generate service <folder>/component>
 ng generate interface <folder>/<interface>
 
+ng generate component <folder>/<interface> --inline-template --skip-tests
+
 
 
 ##### Git / GitHub #####
